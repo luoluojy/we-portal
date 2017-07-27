@@ -1,0 +1,41 @@
+
+
+li{list-style: none;}
+
+.home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding: 0;
+    background: url(../../header.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        background: rgba(38, 57, 88, 0.89);
+        min-height: 500px;
+    }
+
+    .home-sec ul{margin-top:150px;}
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 300px;
+    margin: 12px auto;
+}

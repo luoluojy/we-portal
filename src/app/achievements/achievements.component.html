@@ -1,0 +1,16 @@
+ <div class="about" style="height:1500px;width:80%;margin:0px auto;padding-bottom:20px;">
+        <ul class="about-left" style="float:left;width:15%;">
+        <li *ngFor="let item of items"
+            [@itemState]="item.state"
+            (click)="item.toggleState()">
+            {{item.name}}
+        </li>
+        </ul>
+        <div id="content" style="overflow:hidden;position:relative;float:right;width:80%;margin-left:5%;">
+        <div id="content1">科研论文</div>
+        <div id="content2">知识产权</div>
+        <div id="content3">科研项目</div>
+        <div id="content4">获奖情况</div>
+        <div id="content5">成果展示</div>
+        </div>
+        </div>

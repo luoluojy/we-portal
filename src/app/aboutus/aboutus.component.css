@@ -1,0 +1,27 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: block;
+  width: 120px;
+  line-height: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #eee;
+  border-radius: 4px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  color:white;
+}
+#content { width: 80%; position: relative;}
+#content > div { width: 100%; position: absolute; left: 0px;}
+#content > div + div { left: 100%;}
+#content > div h2 { text-align: center; color: #555555; font-size: 1.3em; }
+#content > div h3 { margin-top: 8px; padding: 8px; }
+#content > div h4 {  margin-top: 10px; font-size: 15px; }
+#content > div p { font-size: 14px; text-indent: 2em;  margin-top: 8px; color: #666666; padding: 10px; }
+#content > div > div { text-align: right; padding: 40px; line-height: 23px; }
