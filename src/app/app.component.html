@@ -1,34 +1,34 @@
 <div id="menuGT">
   <header>
-     <a href="/">
-      <img src="../assets/images/logo.png" alt="logo" width="90" height="60"/>
+    <a href="/">
+      <img src="./../assets/images//logo.png" alt="logo" width="90" height="60" />
       GeoThinking
     </a>
-</header>
+  </header>
 
-<nav>
+  <nav>
 
-  <a routerLink="/" routerLinkActive="active">主页</a>
-  <a routerLink="/aboutus" routerLinkActive="active">团队概况</a>
-  <a routerLink="/progress" routerLinkActive="active">研究进展</a>
-  <a routerLink="/achievements" routerLinkActive="active">研究成果</a>
+    <a routerLink="/" routerLinkActive="active">主页</a>
+    <a routerLink="/aboutus" routerLinkActive="active">团队概况</a>
+    <a routerLink="/progress" routerLinkActive="active">研究进展</a>
+    <a routerLink="/achievements" routerLinkActive="active">研究成果</a>
 
-  <li #course class="dropdown">
-    <a class="dropdown-toggle" (click)="toggle()" data-toggle="dropdown" href="#">教学课程
-    <span class="caret"></span>
-    </a>
-    <ul class="dropdown-menu" style="margin-top:25px;">
+    <li #course class="dropdown">
+      <a class="dropdown-toggle" (click)="toggle()" data-toggle="dropdown" href="#">教学课程
+        <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu" style="margin-top:25px;">
         <li><a href="/gisalgorithm/">GIS算法基础</a></li>
         <li><a href="/spatialdatabase/">空间数据库</a></li>
 
-    </ul>
-  </li>
-</nav>
+      </ul>
+    </li>
+  </nav>
 </div>
 
 <router-outlet></router-outlet>
 <footer>
-      GeoThinking &copy; 2017 
-      &nbsp;All Rights Reserved &nbsp;
-      <a href="http://www.geothinking.cn/" style="color:#38b7ea;font-weight:600;">GeoThinking</a>
+  GeoThinking &copy; 2017
+  &nbsp;All Rights Reserved &nbsp;
+  <a href="http://www.geothinking.cn/" style="color:#38b7ea;font-weight:600;">GeoThinking</a>
 </footer>
