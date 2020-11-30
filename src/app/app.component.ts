@@ -15,7 +15,8 @@ export class AppComponent implements OnInit {
     private activatedRoute: ActivatedRoute,
     private router: Router
   ) {}
-  @ViewChild('course')
+
+  @ViewChild('course', { static: false })
   courseLi: ElementRef;
   degree: number;
   ngOnInit() {
